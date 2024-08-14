@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>MadLibs</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="container">
+    <h1 id="title" class="animate__animated animate__tada animate__slower">Mad Libs</h1>
+    <form>
+      <h3>Pick Your Words</h3>
+
+      <input type="text" placeholder="Relative" id="relative">
+      <input type="text" placeholder="Adjective" id="adjective-1">
+      <input type="text" placeholder="Adjective" id="adjective-2">
+      <input type="text" placeholder="Adjective" id="adjective-3">
+      <input type="text" placeholder="Famous Person" id="fam-person">
+      <input type="text" placeholder="Noun" id="noun">
+      <input type="text" placeholder="Dessert" id="dessert">
+      <input type="text" placeholder="Pet Name" id="pet-name">
+    </form>
+    <button id="button" type="button" onclick="generate()">Generate</button>
+    <div id="output"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
